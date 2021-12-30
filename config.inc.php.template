@@ -1,0 +1,41 @@
+<?php
+// Made by: Roy van Dongen, 29-12-2021
+//
+
+define("DEBUG", false);
+
+define("DNS_DOMAIN","HEREYOURDOMAIN");
+
+// DNS_CONTACT contact emailaddress for use in contact page
+define("DNS_CONTACT", "user<at>HEREYOURDOMAIN");
+
+// URL Where DynDNS app can be found (for use in CRONTABS)
+define("DYNDNS_URL", "https://HEREYOURDOMAIN/dyndns/");
+
+define("API_LOGIN_NAME", "");
+define("API_PRIVATE_KEY",
+  );
+define("API_WHITELIST_TOKENS_ONLY", true);
+
+// PUSHOVER_ENABLED: Enable or disable Pushover integration
+// PUSHOVER_TOKEN: Pushover API token
+// PUSHOVER_DESTINATION: Pushover destination group/token for update messages
+define("PUSHOVER_ENABLED", false);
+define("PUSHOVER_TOKEN","YOURPUSHOVERTOKEN");
+define("PUSHOVER_DESTINATION", "YOURPUSHOVERDESTINATION");
+
+// This array defines the token, als key and the associated subdomain as value.
+// Add more subdomains / tokens yb extending the array below based on the following template
+//
+// "<token>" => "<subdomain>",
+//
+// Do NOT forget the comma at the end of the line, this will break the array
+//
+
+$DNS_ARRAY = array(
+  "testtesttestitsatest" => "dyndnsrecord",
+);
+
+define("DNS_ARRAY", $DNS_ARRAY);
+
+?>
