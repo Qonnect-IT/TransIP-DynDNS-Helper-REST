@@ -9,6 +9,6 @@ This project can be used to automaticly update DNS Subdomain records via the Tra
 Optional, Pushover can be used to send a message if there was a change in IP Address.
 
 ## Before use ##
-Retrieve your TransIP API credentials via the TransIP website.
+Retrieve your TransIP API credentials via the TransIP website. Then copy the config.inc.php.template to config.inc.php and fill the variables.
 
-Then copy the config.inc.php.template to config.inc.php and fill the variables.
+Composer should be ran to install the required dependencies. This can be done by running <em>composer install</em>
