@@ -26,3 +26,7 @@ admin@router# set system task-scheduler task updatedyndns interval 1m
 admin@router# save
 admin@router# exit
 ```
+
+Or via the GUI as shown below
+
+![Egerouter Image](Edgerouter.png?raw=true "Edgerouter")
